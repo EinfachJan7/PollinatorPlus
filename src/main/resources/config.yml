@@ -1,0 +1,11 @@
+# Enable debug logging
+debug: false
+
+# Handle EntityChangeBlock events (Turtle egg laying, Frog egg laying, Bee entering hive)
+handle-entity-change-block: true
+
+# Handle CreatureSpawn events (Frog/Turtle hatching, Bee spawning from hive)
+handle-creature-spawn: true
+
+# Handle EntityEnterBlock events (Bee entering beehive/nest)
+handle-entity-enter-block: true

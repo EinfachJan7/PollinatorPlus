@@ -1,0 +1,16 @@
+name: PollinatorPlus
+version: 1.0
+main: com.baumkrieger69.pollinatorplus.PollinatorPlusPlugin
+api-version: 1.21
+
+commands:
+  pollinatorplus:
+    description: Reloads the PollinatorPlus config
+    usage: /pollinatorplus reload
+    permission: pollinatorplus.reload
+    permission-message: "§cDu hast keine Berechtigung."
+
+permissions:
+  pollinatorplus.reload:
+    description: Allows reloading the PollinatorPlus config
+    default: op
